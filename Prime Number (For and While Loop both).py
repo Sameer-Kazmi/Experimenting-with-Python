@@ -6,7 +6,7 @@ Ques) Write a program to check whether a number is prime.
 Num=int(input("Enter a number greater than 1: "))  #Taking an integer from user.
 List=[1]  #Using this list and asking the user till the user gives a positive integer.
 for i in List:  #Iterating the list.
-    if Num<=1:
+    if Num<=1:  #Checking whether the number is not greater than 1.
         Num=int(input("Enter a number greater than 1: "))
         List.append(1)  #Adding one element to the list to again execute the for loop.
 for i in range(2,int(Num/2)+1):  #Iterating through numbers having a possibility of being a factor.
