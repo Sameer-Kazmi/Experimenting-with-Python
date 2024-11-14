@@ -14,7 +14,7 @@ for i in range(2,int(Num/2)+1):  #Iterating through numbers having a possibility
         print("Not Prime.")
         break  #No need to check the remaining numbers if the number has already been proven not prime.
 else:
-    print("Prime.")  #This block is run when the whole for loop has been executed showing no possible factors.
+    print("Prime.")  #This block runs when the whole for loop has been executed showing no possible factors.
 #  Using just While Loop
 Num=int(input("Enter a number greater than 1: "))  #Taking an integer from the user.
 while Num<=1:  #Checking whether the number is not greater than 1.
