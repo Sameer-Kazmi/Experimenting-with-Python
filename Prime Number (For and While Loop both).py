@@ -2,7 +2,7 @@
 For and While loops used with else
 Ques) Write a program to check whether a number is prime.
 '''
-#  For Loop
+#  Using just For Loop
 Num=int(input("Enter a number greater than 1: "))  #Taking an integer from user.
 List=[1]  #Using this list and asking the user till the user gives a positive integer.
 for i in List:  #Iterating the list.
@@ -15,7 +15,7 @@ for i in range(2,int(Num/2)+1):  #Iterating through numbers having a possibility
         break  #No need to check the remaining numbers if the number has already been proven not prime.
 else:
     print("Prime.")  #This block is run when the whole for loop has been executed showing no possible factors.
-#  While Loop
+#  Using just While Loop
 Num=int(input("Enter a number greater than 1: "))  #Taking an integer from the user.
 while Num<=1:  #Checking whether the number is not greater than 1.
     Num=int(input("Enter a number greater than 1: "))  #Asking the user repeatedly till the user gives a number greater than 1.
